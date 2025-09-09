@@ -2,128 +2,141 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Üsküp Menü</title>
+  <title>ÜSKÜP Dondurma</title>
   <style>
-    body {<header style="text-align: center; padding: 20px;">
-  <img src="Logo.png" alt="ÜSKÜP Logo" style="width: 160px; height: auto;">
-</header>
-      font-family: 'Arial', sans-serif;
-      background: #fff;
-      color: #111;
+    body {
       margin: 0;
-      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
     }
+
     header {
-      background: #000;
-      color: #fff;
       text-align: center;
-      padding: 20px;
-    }
-    header img {
-      max-width: 200px;
-      margin-bottom: 10px;
-    }
-    section {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    h2 {
+      padding: 30px 20px;
       border-bottom: 2px solid #000;
-      padding-bottom: 5px;
-      margin-bottom: 15px;
     }
-    ul {
-      list-style: none;
-      padding: 0;
+
+    header img {
+      max-width: 180px;
+      height: auto;
     }
-    li {
+
+    h2 {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 24px;
+      text-transform: uppercase;
+    }
+
+    .section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .item {
       display: flex;
+      align-items: center;
       justify-content: space-between;
-      margin: 8px 0;
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+    }
+
+    .item span {
       font-size: 18px;
     }
-    .flavors {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-      gap: 10px;
-    }
-    .flavors div {
-      background: #f9f9f9;
-      padding: 10px;
-      border-radius: 8px;
+
+    .contact {
       text-align: center;
-      border: 1px solid #ddd;
+      margin: 40px 0;
+      font-size: 16px;
+    }
+
+    .contact p {
+      margin: 5px 0;
+    }
+
+    .icon {
+      margin-right: 10px;
     }
   </style>
 </head>
 <body>
+
+  <!-- شعار ÜSKÜP -->
   <header>
-    <img src="Logo.png" alt="Üsküp Logo">
-    <h1>Menü</h1>
+    <img src="logo.png" alt="ÜSKÜP Logo">
+    <h1>ÜSKÜP DONDURMA</h1>
+    <p>WAFFLE • İRMİK HELVASI</p>
   </header>
 
-  <section>
-    <h2>🍹 İçecekler</h2>
-    <ul>
-      <li><span>Su (Water)</span> <span>10 TL</span></li>
-      <li><span>Çay (Tea)</span> <span>25 TL</span></li>
-      <li><span>Kola / Fanta / Sprite</span> <span>50 TL</span></li>
-      <li><span>Sade Soda (Plain Soda)</span> <span>25 TL</span></li>
-      <li><span>Meyveli Soda (Fruit Soda)</span> <span>30 TL</span></li>
-      <li><span>Filtre Kahve (Filter Coffee)</span> <span>80 TL</span></li>
-      <li><span>Nescafe</span> <span>50 TL</span></li>
-      <li><span>Türk Kahvesi (Turkish Coffee)</span> <span>60 TL</span></li>
-      <li><span>Limonata (Lemonade)</span> <span>80 TL</span></li>
-    </ul>
-  </section>
+  <!-- نكهات الآيس كريم -->
+  <h2>Dondurma Çeşitlerimiz (Ice Cream Flavors)</h2>
+  <div class="section">
+    <div class="item"><span>🥛 Milk (Milk)</span></div>
+    <div class="item"><span>🍫 Kakao (Cocoa)</span></div>
+    <div class="item"><span>🫐 Yaban Mersini (Blueberry)</span></div>
+    <div class="item"><span>🍋 Limon (Lemon)</span></div>
+    <div class="item"><span>🍓 Çilek (Strawberry)</span></div>
+    <div class="item"><span>🍒 Vişne (Sour Cherry)</span></div>
+    <div class="item"><span>🍯 Karamel (Caramel)</span></div>
+    <div class="item"><span>🌰 Kestane (Chestnut)</span></div>
+    <div class="item"><span>🍫 Snickers (Snickers)</span></div>
+    <div class="item"><span>🥥 Hindistan Cevizi (Coconut)</span></div>
+    <div class="item"><span>🍰 Cheesecake (Cheesecake)</span></div>
+    <div class="item"><span>🍪 Oreo (Oreo)</span></div>
+    <div class="item"><span>🍹 Kokteyl (Cocktail)</span></div>
+    <div class="item"><span>🍌 Muz (Banana)</span></div>
+    <div class="item"><span>🍯 Balbadem (Honey Almond)</span></div>
+    <div class="item"><span>🥜 Antep (Pistachio)</span></div>
+    <div class="item"><span>🌰 İncir Ceviz (Fig Walnut)</span></div>
+    <div class="item"><span>🍈 Kavun (Melon)</span></div>
+    <div class="item"><span>🍑 Şeftali (Peach)</span></div>
+    <div class="item"><span>🍊 Portakal (Orange)</span></div>
+    <div class="item"><span>🌿 Damla Sakız (Mastic)</span></div>
+    <div class="item"><span>🍮 İtalyan Karamel (Italian Caramel)</span></div>
+    <div class="item"><span>🍇 Orman Meyveli (Forest Fruit)</span></div>
+    <div class="item"><span>☕ Türk Kahveli (Turkish Coffee)</span></div>
+  </div>
 
-  <section>
-    <h2>🍨 Dondurma & Helva</h2>
-    <ul>
-      <li><span>1 Top Dondurma (1 Scoop)</span> <span>40 TL</span></li>
-      <li><span>1 Kg Dondurma (1 Kg Ice Cream)</span> <span>600 TL</span></li>
-      <li><span>1 Kg Sade İrmik (Plain Semolina)</span> <span>430 TL</span></li>
-      <li><span>1 Kg Antepli İrmik (Pistachio Semolina)</span> <span>600 TL</span></li>
-      <li><span>Profiterol</span> <span>140 TL</span></li>
-      <li><span>Tiramisu</span> <span>120 TL</span></li>
-      <li><span>Sade İrmik (Plain Semolina)</span> <span>120 TL</span></li>
-      <li><span>Antepli İrmik (Pistachio Semolina)</span> <span>140 TL</span></li>
-      <li><span>Waffle & Kova</span> <span>320 TL</span></li>
-      <li><span>2 Top Kağıt Helva (2 Scoop Wafer)</span> <span>110 TL</span></li>
-      <li><span>3 Top Kağıt Helva (3 Scoop Wafer)</span> <span>150 TL</span></li>
-    </ul>
-  </section>
+  <!-- الأسعار -->
+  <h2>Fiyatlar (Prices)</h2>
+  <div class="section">
+    <div class="item"><span>1 Top Dondurma (1 Scoop)</span><span>40 TL</span></div>
+    <div class="item"><span>1 Kg Dondurma (1 Kg Ice Cream)</span><span>320 TL</span></div>
+    <div class="item"><span>1 Kg Sade İrmik (Plain Semolina)</span><span>430 TL</span></div>
+    <div class="item"><span>1 Kg Antep İrmik (Pistachio Semolina)</span><span>600 TL</span></div>
+    <div class="item"><span>Profiterol (Profiterole)</span><span>140 TL</span></div>
+    <div class="item"><span>Tiramisu (Tiramisu)</span><span>120 TL</span></div>
+    <div class="item"><span>Sade İrmik (Plain Semolina)</span><span>120 TL</span></div>
+    <div class="item"><span>Antep İrmik (Pistachio Semolina)</span><span>140 TL</span></div>
+    <div class="item"><span>Waffle & Kova (Waffle & Tub)</span><span>320 TL</span></div>
+    <div class="item"><span>2 Top Kağıt Helva (2 Scoop Wafer)</span><span>130 TL</span></div>
+    <div class="item"><span>3 Top Kağıt Helva (3 Scoop Wafer)</span><span>150 TL</span></div>
+  </div>
 
-  <section>
-    <h2>🍦 Dondurma Çeşitleri (Flavors)</h2>
-    <div class="flavors">
-      <div>Sade (Milk)</div>
-      <div>Kakao (Cocoa)</div>
-      <div>Yaban Mersini (Blueberry)</div>
-      <div>Limon (Lemon)</div>
-      <div>Çilek (Strawberry)</div>
-      <div>Vişne (Sour Cherry)</div>
-      <div>Karamel (Caramel)</div>
-      <div>Kestane (Chestnut)</div>
-      <div>Snickers</div>
-      <div>Hindistan Cevizi (Coconut)</div>
-      <div>Cheesecake</div>
-      <div>Oreo</div>
-      <div>Kokteyl (Cocktail)</div>
-      <div>Muz (Banana)</div>
-      <div>Balbadem (Honey Almond)</div>
-      <div>Antep (Pistachio)</div>
-      <div>İncir Ceviz (Fig Walnut)</div>
-      <div>Kavun (Melon)</div>
-      <div>Şeftali (Peach)</div>
-      <div>Portakal (Orange)</div>
-      <div>Damla Sakız (Mastic)</div>
-      <div>İtalyan Karameli (Italian Caramel)</div>
-      <div>Orman Meyveli (Forest Fruit)</div>
-      <div>Türk Kahveli (Turkish Coffee)</div>
-    </div>
-  </section>
+  <!-- المشروبات -->
+  <h2>İçecekler (Beverages)</h2>
+  <div class="section">
+    <div class="item"><span>💧 Su (Water)</span><span>10 TL</span></div>
+    <div class="item"><span>🍵 Çay (Tea)</span><span>25 TL</span></div>
+    <div class="item"><span>🥤 Kola, Fanta, Sprite</span><span>50 TL</span></div>
+    <div class="item"><span>🫧 Sade Soda (Plain Soda)</span><span>30 TL</span></div>
+    <div class="item"><span>🍓 Meyveli Soda (Fruit Soda)</span><span>30 TL</span></div>
+    <div class="item"><span>☕ Filtre Kahve (Filter Coffee)</span><span>80 TL</span></div>
+    <div class="item"><span>☕ Nescafe (Nescafe)</span><span>50 TL</span></div>
+    <div class="item"><span>☕ Türk Kahvesi (Turkish Coffee)</span><span>60 TL</span></div>
+    <div class="item"><span>🍋 Limonata (Lemonade)</span><span>80 TL</span></div>
+  </div>
+
+  <!-- معلومات التواصل -->
+  <div class="contact">
+    <h2>İletişim (Contact)</h2>
+    <p>📞 Telefon: 0554 337 43 15</p>
+    <p>📸 Instagram: @uskupdondurma</p>
+    <p>📍 Adres: İstiklal mah Atatürk cad Cengiz Yaman İş Merkezi (kaymakamlık karşısı)</p>
+  </div>
+
 </body>
 </html>
